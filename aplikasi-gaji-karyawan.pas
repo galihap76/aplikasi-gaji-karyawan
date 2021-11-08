@@ -1,4 +1,4 @@
-program latihan37;
+program gajiKaryawan;
 
 {$APPTYPE CONSOLE}
 
@@ -36,7 +36,7 @@ gaji_pokok:=2000000;
 gaji_pokok2:=3000000;
 gaji_pokok3:=4000000;
 gaji_pokok4:=5000000;
-writeln('=====APLIKASI MENGHITUNG GAJI TOTAL KARYAWAN BERDASARKAN GAJI POKOK, DAN TUNJANGAN=====');
+writeln('=====APLIKASI MENGHITUNG GAJI TOTAL KARYAWAN BERDASARKAN GAJI POKOK DAN TUNJANGAN=====');
 writeln;
 write('Masukkan golongan : ');readln(golongan);
 if golongan = '1' then
